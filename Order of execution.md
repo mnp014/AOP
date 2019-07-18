@@ -1,8 +1,22 @@
 #### In Springboot (java)
 ---
+
+##### Happy path
+( Start ) >>
 ```
 @Before
 @After
-@AfterThrowing
 @AfterReturning
 ```
+\>> ( End )
+
+---
+##### Un-Happy path
+( Start ) >>
+```
+@Before
+@AfterThrowing
+```
+\>> ( End )
+
+---
